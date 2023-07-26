@@ -25,7 +25,6 @@ const whosThereVerification = (event) => {
     whosThereContainer.classList.add('hide')
 
     whosThere = event.target
-    console.log(whosThere.classList)
     showNextQuastion()
 }
 
@@ -85,8 +84,6 @@ const answerVerification = (event) => {
 
         button.disabled = true
     })
-
-    console.log(`verdadeiras = ${trueAnswer} / falsas = ${falseAnswer}`)
 
     nextQuestionBtn.classList.remove('hide')
 
