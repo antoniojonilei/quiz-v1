@@ -88,6 +88,8 @@ const answerVerification = (event) => {
     nextQuestionBtn.classList.remove('hide')
 
     questionIndex++
+
+    console.log(`acertos: ${trueAnswer}, erros: ${falseAnswer}`)
 }
 
 startQuizButton.addEventListener('click', startGame)
@@ -130,7 +132,7 @@ const questions = [
             { text: "Com 2 paus", correct: false },
             { text: "Com 5 paus", correct: false },
             { text: "Com 7 paus", correct: false },
-            { text: "Com 9 paus", correct: true }
+            { text: "Com 1 pau", correct: true }
         ]
     },
     {
@@ -140,6 +142,51 @@ const questions = [
             { text: "2 de agosto de 1985", correct: false },
             { text: "5 de abril de 1587", correct: false },
             { text: "31 de dezembro de 1999", correct: false }
+        ]
+    },
+    {
+        question: "Em um aquário tem 10 peixes e 5 morreram afogados. Quantos sobraram?",
+        answers: [
+            { text: "5 peixes", correct: false },
+            { text: "10 peixes", correct: true },
+            { text: "15 peixes", correct: false },
+            { text: "nenhum peixe", correct: false }
+        ]
+    },
+    {
+        question: "Por que o menino colocou o despertador embaixo da cama?",
+        answers: [
+            { text: "Para não ouvir", correct: false },
+            { text: "Para faltar na escola", correct: false },
+            { text: "Para acordar em cima da hora", correct: true },
+            { text: "Para dormir que nem bebê", correct: false }
+        ]
+    },
+    {
+        question: "O que é feito de água, mas se for colocado na água morrerá?",
+        answers: [
+            { text: "O gelo", correct: true },
+            { text: "A nuvem", correct: false },
+            { text: "O vento", correct: false },
+            { text: "A terra", correct: false }
+        ]
+    },
+    {
+        question: "Qual é o nome do carro que mostra que vai chover?",
+        answers: [
+            { text: "Fusca azul", correct: false },
+            { text: "Brasília amarela", correct: false },
+            { text: "Celta preto", correct: true },
+            { text: "Escort branco", correct: false }
+        ]
+    },
+    {
+        question: "O que é um fuínho?",
+        answers: [
+            { text: "É um tipo de fruta", correct: false },
+            { text: "Instrumento de cozinha", correct: false },
+            { text: "O marido da fuinha", correct: false},
+            { text: "É um buaquinho na paede", correct: true }
         ]
     }
 ]
