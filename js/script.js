@@ -105,7 +105,7 @@ const finishGame = () => {
         <div class="results">
             <h2>Resultado</h2>
             <p>Acertos: ${trueAnswer} Erros: ${falseAnswer} </p>  
-            <p>Parabéns, você vai ser titia</p>
+            <p>Parabéns!! A pontuação não faz a menor diferença. Isso é só uma forma um pouco descontraída de te dizer que, apesar de não planejarmos nada, Deus te mandou um sobrinho. Sim, você vai ser titia. Não conta pra sua mãe ainda... (hahaha) Te amo!</p>
         </div>
     
         `
@@ -117,7 +117,7 @@ const finishGame = () => {
         <div class="results">
             <h2>Resultado</h2>
             <p>Acertos: ${trueAnswer} Erros: ${falseAnswer} </p>  
-            <p>Parabéns você vai ganhar mais um neto</p>
+            <p>Parabéns!! A pontuação não faz a menor diferença. Isso é só uma forma um pouco descontraída de te dizer que, apesar de não planejarmos nada, Deus te mandou mais um neto. Sim, você falou tanto que aconteceu. Agora vai ter que cuidar que nem prometeu... (hahaha) Te amo!</p>
         </div>
     `
     }  
