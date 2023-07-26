@@ -3,11 +3,11 @@
 
  <img src="Captura%20de%20tela%202023-07-26%20141423.jpg" alt="">
 
- [Deploy: ](https://quiz-v1-silk.vercel.app/)
+ [Deploy aqui](https://quiz-v1-silk.vercel.app/)
 
 
-##Tecnologias: 
-[] HTML
-[] CSS
-    []Flexbox
-[] JavaScript
+## Tecnologias: 
+[x] HTML
+[x] CSS
+    [x]Flexbox
+[x] JavaScript
