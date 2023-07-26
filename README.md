@@ -9,5 +9,5 @@
 ## Tecnologias: 
 - [x] HTML
 - [x] CSS
-    - [x]Flexbox
+    - Flexbox
 - [x] JavaScript
