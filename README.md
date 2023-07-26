@@ -7,7 +7,7 @@
 
 
 ## Tecnologias: 
-[x] HTML
-[x] CSS
-    [x]Flexbox
-[x] JavaScript
+- [x] HTML
+- [x] CSS
+    - [x]Flexbox
+- [x] JavaScript
