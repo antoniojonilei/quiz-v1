@@ -105,7 +105,7 @@ const finishGame = () => {
         <div class="results">
             <h2>Resultado</h2>
             <p>Acertos: ${trueAnswer} Erros: ${falseAnswer} </p>  
-            <p>Parabéns!! A pontuação não faz a menor diferença. Isso é só uma forma um pouco descontraída de te dizer que, apesar de não planejarmos nada, Deus te mandou um sobrinho. Sim, você vai ser titia. Não conta pra sua mãe ainda... (hahaha) Te amo!</p>
+            <p>Parabéns!! A pontuação não faz a menor diferença. Isso é só uma forma um pouco descontraída de te dizer que, apesar de não planejarmos nada, Deus te mandou um sobrinho. Sim, você vai ser titia. Não conta pra sua mãe. Vou contar pra ela inda... (hahaha) Te amo!</p>
         </div>
     
         `

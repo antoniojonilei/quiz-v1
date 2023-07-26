@@ -127,9 +127,11 @@ body {
 }
 
 .results {
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin: 0 50px;
+    line-height: 60px;
 }
