@@ -27,17 +27,16 @@ body {
     flex-direction: column;
     gap: 20px;
     margin: 0 40px;
-    width: 90%;
 }
 
 .question {    
     background-color: #1636AF;
-    padding: 30px 110px;
+    padding: 30px 80px;
     font-size: 1.4em;
     border: 3px solid white;
     border-radius: 60px;
     box-shadow: 2px 2px 5px 2px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .answers-container {
